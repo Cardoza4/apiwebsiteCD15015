@@ -1,0 +1,40 @@
+img {width:5cm;height: 5cm;}
+body{background-image: url("eac_1.jpg");}
+h1 {
+    text-align: center; 
+font-family: Comic Sans MS; 
+font-weight:bold; 
+font-size: 30px; 
+color: #75b1d4; 
+text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
+p{text-align: center; font-family: Comic Sans MS; font-weight:bold; font-size: 20px; color: #EBD758; text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;}   
+button{text-align: left; font-family: Comic Sans MS; font-weight:bold; font-size: 20px; border-style:solid; border-color:#414D68;
+color: #EBD758; text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    background: #eee;
+    border-radius: 8px 8px 8px 8px;
+
+    }
+  
+ 
+form{ text-align: center; font-style: italic}
+table {border-collapse: separate; border-spacing: 5px; background-color: rgb(15, 85, 97);color: #fff; }
+td, th {background: rgb(238, 241, 240); color: rgb(24, 4, 4);}
+th#price {cursor:text;}
+li {color:rgb(12, 17, 16);}
+
+
+/*si chequea muestra los productos sin cheque desaparecen los productos*/
+input#c1:checked ~ table tbody tr.c1 { display: table-row; cursor:move;}
+input#c1:not(checked) ~ table tbody tr.c1 { display: none; background-color: #414D68;}
+input#c2:checked ~ table tbody tr.c2 { display: table-row; }
+input#c2:not(checked) ~ table tbody tr.c2 { display: none; }
+input#c3:checked ~ table tbody tr.c3 { display: table-row; }
+input#c3:not(checked) ~ table tbody tr.c3 { display: none; }
+input#c4:checked ~ table tbody tr.c4 { display: table-row; }
+input#c4:not(checked) ~ table tbody tr.c4 { display: none; }
